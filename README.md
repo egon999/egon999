@@ -104,11 +104,11 @@ I am a **Systems Architect & Performance Engineer** and the founder of **Bratz I
 <div align="center">
 
   <p>
-    <img src="https://img.shields.io/github/repos-count/egon999?style=for-the-badge&logo=github&label=Repositories&color=38BDF8&labelColor=0B0F19" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Repositories-17_Public-0284C7?style=for-the-badge&logo=github&labelColor=0B0F19" alt="Repositories" />
     &nbsp;
-    <img src="https://img.shields.io/github/followers/egon999?style=for-the-badge&logo=github&label=Followers&color=818CF8&labelColor=0B0F19" alt="Followers" />
+    <img src="https://img.shields.io/badge/Contributions-54+-38BDF8?style=for-the-badge&logo=git&labelColor=0B0F19" alt="Contributions" />
     &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=egon999&label=Profile%20Views&color=0284C7&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=egon999&label=Profile%20Views&color=818CF8&style=for-the-badge" alt="Profile Views" />
   </p>
 
   <br/>
