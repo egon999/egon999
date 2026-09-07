@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Header Banner with Cyber Wave Aesthetic -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,30&height=230&section=header&text=Ayushman%20(EGON)&fontSize=52&fontAlignY=36&desc=Systems%20%26%20Full-Stack%20Developer%20%7C%2012th%20Grade%20Student%20%7C%20AI%20Builder&descAlignY=62&descAlign=50&stroke=38BDF8&strokeWidth=1" width="100%" alt="Ayushman (EGON) Header" />
+  <img src="assets/banner.svg" width="100%" alt="Ayushman (EGON) Header" />
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/egon999">
@@ -137,7 +137,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
   <br/><br/>
 
   <a href="https://github.com/egon999">
-    <img src="assets/streak.svg" alt="Ayushman (EGON) 88-Day Streak & Telemetry Card" width="90%" />
+    <img src="assets/streak_card.svg" alt="Ayushman (EGON) 88-Day Streak & Telemetry Card" width="90%" />
   </a>
 
 </div>
