@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="850" height="210">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="50%" stop-color="#0C1222"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Cyan Accent Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <!-- Wave Gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.45"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Base Card Frame -->
+  <rect width="850" height="210" rx="16" fill="url(#bgGrad)"/>
+  <rect width="850" height="210" rx="16" fill="url(#grid)"/>
+
+  <!-- Cybernetic Wave Elements -->
+  <path d="M0 160 Q 210 110, 425 155 T 850 135 L 850 210 L 0 210 Z" fill="url(#waveGrad)"/>
+  <path d="M0 175 Q 230 130, 440 170 T 850 150" fill="none" stroke="url(#cyanGrad)" stroke-width="2" opacity="0.6"/>
+  <path d="M0 185 Q 200 150, 420 180 T 850 165" fill="none" stroke="#38BDF8" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="850" height="3" fill="url(#cyanGrad)"/>
+  <rect width="850" height="210" rx="16" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Glowing Corner Accents -->
+  <circle cx="28" cy="28" r="3" fill="#38BDF8" opacity="0.7"/>
+  <circle cx="822" cy="28" r="3" fill="#38BDF8" opacity="0.7"/>
+
+  <!-- Main Title: Ayushman (EGON) -->
+  <text x="425" y="86" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="44" font-weight="900" fill="#F8FAFC" letter-spacing="1.5">
+    AYUSHMAN <tspan fill="#38BDF8">(EGON)</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="425" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="16" font-weight="600" fill="#94A3B8" letter-spacing="0.8">
+    Systems &amp; Full-Stack Developer &#8226; 12th Grade Student &#8226; Founder @ Bratz Inc
+  </text>
+
+  <!-- Tech Focus Badges inside SVG -->
+  <g transform="translate(425, 160)">
+    <!-- Pill 1: Web & Full-Stack -->
+    <rect x="-260" y="-12" width="160" height="24" rx="12" fill="#0F172A" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="-180" y="4" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#38BDF8">
+      React 19 &#8226; Next.js 15
+    </text>
+
+    <!-- Pill 2: Autonomous AI -->
+    <rect x="-80" y="-12" width="160" height="24" rx="12" fill="#0F172A" stroke="#818CF8" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="0" y="4" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#A5B4FC">
+      Agentic AI Swarms
+    </text>
+
+    <!-- Pill 3: Systems & Forensics -->
+    <rect x="100" y="-12" width="160" height="24" rx="12" fill="#0F172A" stroke="#0284C7" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="180" y="4" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11" font-weight="700" fill="#38BDF8">
+      OS Forensics &#8226; Win32
+    </text>
+  </g>
+</svg>
