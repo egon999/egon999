@@ -5,7 +5,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/egon999">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=680&height=50&lines=In+the+Battle+of+Codes+%E2%80%94+17yo+Developer+%26+Builder+(12th+Grade);React+19+%26+Next.js+15+Specialist+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Java;World's+1st+Autonomous+Agentic+ERP+Core+(Private);Creator+of+ATLAS+by+Bratz+%E2%80%94+Windows+OS+Forensics;Pioneering+Vibe+Coding+%26+Rapid+AI+Agent+Orchestration" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=680&height=50&lines=17yo+Full-Stack+%26+Systems+Developer+(Class+12th);React+19+%26+Next.js+15+Specialist+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Java;World's+1st+Autonomous+Agentic+ERP+Core+(Private);Creator+of+ATLAS+by+Bratz+%E2%80%94+Windows+OS+Forensics;AI+Agent+Orchestration+%26+High-Performance+Software" alt="Typing SVG" />
   </a>
 
   <!-- Social Badges & Status Pills -->
@@ -24,23 +24,23 @@
 
 ---
 
-### ⚡ In the Battle of Codes — Executive Overview
+### <img src="assets/icons/terminal.svg" width="20" height="20" valign="middle" /> Executive Overview
 
 I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the founder of **Bratz Inc.** I bridge the gap between high-level web applications and low-level operating system internals, building autonomous agentic architectures and high-performance software.
 
-- 🎓 **The Journey**: High school senior (Class 12th) balancing academic studies with building production-grade software.
-- ⚡ **Full-Stack Mastery**: Deeply specialized in **React, Next.js, Node.js, Python, and Java**, delivering buttery-smooth reactive frontends, sub-millisecond API pipelines, and robust state machines.
-- 🤖 **Vibe Coding & AI Agent Orchestration**: Pioneering AI-assisted rapid prototyping and autonomous agent swarms — turning complex ideas from whiteboard sketches into hardened production software in record time.
-- 🛡️ **Systems & Security**: Developing low-level Windows latency tuners and anti-cheat reverse-engineering forensic inspectors.
+- <img src="assets/icons/academic.svg" width="16" height="16" valign="middle" /> **Academic Foundations**: High school senior (Class 12th) balancing academic studies with building production-grade software.
+- <img src="assets/icons/code.svg" width="16" height="16" valign="middle" /> **Full-Stack Mastery**: Deeply specialized in **React, Next.js, Node.js, Python, and Java**, delivering buttery-smooth reactive frontends, sub-millisecond API pipelines, and robust state machines.
+- <img src="assets/icons/ai.svg" width="16" height="16" valign="middle" /> **AI Agent Orchestration & Rapid Prototyping**: Pioneering autonomous agent swarms and high-velocity development workflows — turning complex ideas into hardened production software in record time.
+- <img src="assets/icons/shield.svg" width="16" height="16" valign="middle" /> **Systems & Security**: Developing low-level Windows latency tuners and anti-cheat reverse-engineering forensic inspectors.
 
 ---
 
-### 🌟 Flagship Projects
+### <img src="assets/icons/layers.svg" width="20" height="20" valign="middle" /> Flagship Projects
 
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3 align="center">🧠 Autonomous Agentic Enterprise ERP</h3>
+      <h3 align="center"><img src="assets/icons/cpu.svg" width="20" height="20" valign="middle" /> Autonomous Agentic Enterprise ERP</h3>
       <p align="center">
         <b>The World's 1st Autonomous Agent-Powered ERP Platform (Private Enterprise)</b>
       </p>
@@ -54,7 +54,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ ATLAS by Bratz</h3>
+      <h3 align="center"><img src="assets/icons/shield.svg" width="20" height="20" valign="middle" /> ATLAS by Bratz</h3>
       <p align="center">
         <b>Windows Performance Suite & Threat Hunter</b>
       </p>
@@ -66,7 +66,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚡ Free AI Bridge</h3>
+      <h3 align="center"><img src="assets/icons/network.svg" width="20" height="20" valign="middle" /> Free AI Bridge</h3>
       <p align="center">
         <b>High-Performance Multi-Model AI Proxy</b>
       </p>
@@ -82,7 +82,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
 
 ---
 
-### 🛠️ Technical Arsenal
+### <img src="assets/icons/tools.svg" width="20" height="20" valign="middle" /> Technical Arsenal
 
 <div align="center">
 
@@ -98,7 +98,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
 #### Autonomous AI & Agentic Orchestration
 ![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent%20Swarms-0284C7?style=for-the-badge&logo=robot&logoColor=white)
 ![Agentic Workflows](https://img.shields.io/badge/Agentic%20Workflows-0EA5E9?style=for-the-badge&logo=openai&logoColor=white)
-![Vibe Coding](https://img.shields.io/badge/Vibe%20Coding%20%26%20Rapid%20Prototyping-8B5CF6?style=for-the-badge&logo=lightning&logoColor=white)
+![Rapid Prototyping](https://img.shields.io/badge/Rapid%20Prototyping-8B5CF6?style=for-the-badge&logo=lightning&logoColor=white)
 ![LLM APIs](https://img.shields.io/badge/LLM%20Orchestration-10B981?style=for-the-badge&logo=google&logoColor=white)
 
 #### Low-Level & Systems Development
@@ -120,7 +120,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
 
 ---
 
-### 📊 Activity & Telemetry
+### <img src="assets/icons/activity.svg" width="20" height="20" valign="middle" /> Activity & Telemetry
 
 <div align="center">
 
@@ -144,7 +144,7 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
 
 ---
 
-### 🌐 Connect & Community
+### <img src="assets/icons/globe.svg" width="20" height="20" valign="middle" /> Connect & Community
 
 <div align="center">
 
@@ -159,6 +159,6 @@ I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the found
   </a>
 
   <br/><br/>
-  <sub>In the Battle of Codes &bull; Powered by <b>Bratz Inc.</b></sub>
+  <sub>Engineered with precision &bull; Powered by <b>Bratz Inc.</b></sub>
 
 </div>
