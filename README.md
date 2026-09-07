@@ -1,11 +1,11 @@
 <div align="center">
 
   <!-- Header Banner with Cyber Wave Aesthetic -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,30&height=230&section=header&text=Ayushman%20(EGON)&fontSize=52&fontAlignY=36&desc=Systems%20Architect%20%7C%20Full-Stack%20Engineer%20%7C%20AI%20Agentic%20Systems&descAlignY=62&descAlign=50&stroke=38BDF8&strokeWidth=1" width="100%" alt="Ayushman (EGON) Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,30&height=230&section=header&text=Ayushman%20(EGON)&fontSize=52&fontAlignY=36&desc=Systems%20%26%20Full-Stack%20Developer%20%7C%2012th%20Grade%20Student%20%7C%20AI%20Builder&descAlignY=62&descAlign=50&stroke=38BDF8&strokeWidth=1" width="100%" alt="Ayushman (EGON) Header" />
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/egon999">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=680&height=50&lines=In+the+Battle+of+Codes+%E2%80%94+17yo+Systems+Architect+(12th+Grade);React+19+%26+Next.js+15+Specialist+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Java;World's+1st+Autonomous+Agentic+ERP+Core+(Private);Creator+of+ATLAS+by+Bratz+%E2%80%94+Windows+OS+Forensics;Pioneering+Vibe+Coding+%26+Rapid+AI+Agent+Orchestration" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=680&height=50&lines=In+the+Battle+of+Codes+%E2%80%94+17yo+Developer+%26+Builder+(12th+Grade);React+19+%26+Next.js+15+Specialist+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+Java;World's+1st+Autonomous+Agentic+ERP+Core+(Private);Creator+of+ATLAS+by+Bratz+%E2%80%94+Windows+OS+Forensics;Pioneering+Vibe+Coding+%26+Rapid+AI+Agent+Orchestration" alt="Typing SVG" />
   </a>
 
   <!-- Social Badges & Status Pills -->
@@ -17,7 +17,7 @@
       <img src="https://img.shields.io/badge/Instagram-@unrealstarkk-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Profile" />
     </a>
     <img src="https://img.shields.io/badge/Founder-Bratz%20Inc-0284C7?style=for-the-badge&logo=probot&logoColor=white" alt="Founder Bratz Inc" />
-    <img src="https://img.shields.io/badge/Status-12th%20Grade%20Architect-38BDF8?style=for-the-badge&logo=codeforces&logoColor=white" alt="12th Grade Systems Architect" />
+    <img src="https://img.shields.io/badge/Status-12th%20Grade%20Student%20%26%20Builder-38BDF8?style=for-the-badge&logo=codeforces&logoColor=white" alt="12th Grade Student & Builder" />
   </p>
 
 </div>
@@ -26,12 +26,12 @@
 
 ### ⚡ In the Battle of Codes — Executive Overview
 
-I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and the founder of **Bratz Inc.** I bridge the gap between high-level web interfaces and low-level operating system internals, building autonomous agentic architectures and high-concurrency systems.
+I am a **17-year-old Systems & Full-Stack Developer** (Class 12th) and the founder of **Bratz Inc.** I bridge the gap between high-level web applications and low-level operating system internals, building autonomous agentic architectures and high-performance software.
 
-- 🎓 **The Journey**: High school senior (Class 12th) balancing academic rigor with real-world software architecture.
-- ⚡ **Full-Stack Mastery**: Deeply specialized in **React, Next.js, Node.js, Python, and Java**, delivering buttery-smooth reactive frontends, sub-millisecond API pipelines, and enterprise-grade state machines.
+- 🎓 **The Journey**: High school senior (Class 12th) balancing academic studies with building production-grade software.
+- ⚡ **Full-Stack Mastery**: Deeply specialized in **React, Next.js, Node.js, Python, and Java**, delivering buttery-smooth reactive frontends, sub-millisecond API pipelines, and robust state machines.
 - 🤖 **Vibe Coding & AI Agent Orchestration**: Pioneering AI-assisted rapid prototyping and autonomous agent swarms — turning complex ideas from whiteboard sketches into hardened production software in record time.
-- 🛡️ **Systems & Security Engineering**: Designing kernel driver interop, low-level Win32 latency tuners, and anti-cheat reverse-engineering forensic inspectors.
+- 🛡️ **Systems & Security**: Developing low-level Windows latency tuners and anti-cheat reverse-engineering forensic inspectors.
 
 ---
 
@@ -45,7 +45,7 @@ I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and 
         <b>The World's 1st Autonomous Agent-Powered ERP Platform (Private Enterprise)</b>
       </p>
       <p>
-        An enterprise resource planning platform engineered from the ground up with autonomous AI agents. Replaces human operational bottlenecks with intelligent agent swarms executing automated double-entry accounting, real-time inventory ledgering, multi-vendor supply chain tracking, predictive demand forecasting, and autonomous decision routing.
+        An enterprise resource planning platform engineered from the ground up with autonomous AI agents. Replaces operational bottlenecks with intelligent agent swarms executing automated double-entry accounting, real-time inventory ledgering, multi-vendor supply chain tracking, predictive demand forecasting, and autonomous decision routing.
       </p>
       <p align="center">
         <code>AI Agents</code> &bull; <code>Enterprise ERP</code> &bull; <code>React 19</code> &bull; <code>Next.js 15</code> &bull; <code>Python</code> &bull; <code>Node.js</code> &bull; <code>Private Core</code>
@@ -86,7 +86,7 @@ I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and 
 
 <div align="center">
 
-#### Web, Full-Stack & Core Languages
+#### Web & Full-Stack Development
 ![React](https://img.shields.io/badge/React%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -101,7 +101,7 @@ I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and 
 ![Vibe Coding](https://img.shields.io/badge/Vibe%20Coding%20%26%20Rapid%20Prototyping-8B5CF6?style=for-the-badge&logo=lightning&logoColor=white)
 ![LLM APIs](https://img.shields.io/badge/LLM%20Orchestration-10B981?style=for-the-badge&logo=google&logoColor=white)
 
-#### Systems & Low-Level Engineering
+#### Low-Level & Systems Development
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
@@ -120,12 +120,12 @@ I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and 
 
 ---
 
-### 📊 Engineering Metrics & Telemetry
+### 📊 Activity & Telemetry
 
 <div align="center">
 
   <p>
-    <img src="https://img.shields.io/badge/Repositories-6_Curated-0284C7?style=for-the-badge&logo=github&labelColor=0B0F19" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Repositories-Public%20Showcase-0284C7?style=for-the-badge&logo=github&labelColor=0B0F19" alt="Repositories" />
     &nbsp;
     <img src="https://img.shields.io/badge/Contributions-1%2C480+-38BDF8?style=for-the-badge&logo=git&labelColor=0B0F19" alt="Contributions" />
     &nbsp;
@@ -134,7 +134,7 @@ I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and 
     <img src="https://komarev.com/ghpvc/?username=egon999&label=Profile%20Views&color=818CF8&style=for-the-badge" alt="Profile Views" />
   </p>
 
-  <br/>
+  <br/><br/>
 
   <a href="https://github.com/egon999">
     <img src="assets/streak.svg" alt="Ayushman (EGON) 88-Day Streak & Telemetry Card" width="90%" />
@@ -159,6 +159,6 @@ I am a **17-year-old Systems Architect & Full-Stack Engineer** (Class 12th) and 
   </a>
 
   <br/><br/>
-  <sub>Architected with precision &bull; In the Battle of Codes &bull; Powered by <b>Bratz Inc.</b></sub>
+  <sub>In the Battle of Codes &bull; Powered by <b>Bratz Inc.</b></sub>
 
 </div>
