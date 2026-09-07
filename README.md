@@ -102,21 +102,21 @@ I am a **Systems Architect & Performance Engineer** and the founder of **Bratz I
 ### 📊 Engineering Metrics & Telemetry
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=egon999&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=38BDF8&icon_color=818CF8&text_color=94A3B8" alt="GitHub Stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=egon999&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=94A3B8" alt="Top Languages" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=egon999&theme=tokyonight&hide_border=true&background=0B0F19&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" alt="Streak Stats" width="100%" />
-      </td>
-    </tr>
-  </table>
+
+  <p>
+    <img src="https://img.shields.io/github/repos-count/egon999?style=for-the-badge&logo=github&label=Repositories&color=38BDF8&labelColor=0B0F19" alt="Repositories" />
+    &nbsp;
+    <img src="https://img.shields.io/github/followers/egon999?style=for-the-badge&logo=github&label=Followers&color=818CF8&labelColor=0B0F19" alt="Followers" />
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=egon999&label=Profile%20Views&color=0284C7&style=for-the-badge" alt="Profile Views" />
+  </p>
+
+  <br/>
+
+  <a href="https://github.com/egon999">
+    <img src="https://streak-stats.demolab.com/?user=egon999&theme=tokyonight&hide_border=true&background=0B0F19&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" alt="GitHub Contribution Streak" width="85%" />
+  </a>
+
 </div>
 
 ---
