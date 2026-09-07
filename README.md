@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Header Banner with Cyber Wave Aesthetic -->
-  <img src="assets/banner.svg" width="100%" alt="Ayushman (EGON) Header" />
+  <img src="assets/header_banner.svg" width="100%" alt="Ayushman (EGON) Header" />
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/egon999">
