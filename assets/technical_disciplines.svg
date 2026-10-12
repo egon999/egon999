@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360">
+  <defs>
+    <linearGradient id="discBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040805"/>
+      <stop offset="50%" stop-color="#08140D"/>
+      <stop offset="100%" stop-color="#040805"/>
+    </linearGradient>
+    <linearGradient id="quadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07130A"/>
+      <stop offset="100%" stop-color="#0D2214"/>
+    </linearGradient>
+    <linearGradient id="emeraldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="876" height="356" rx="24" fill="url(#discBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.35"/>
+
+  <!-- Header -->
+  <g transform="translate(440, 38)" text-anchor="middle">
+    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="900" fill="#F8FAFC">
+      TECHNICAL DISCIPLINES &amp; <tspan fill="url(#emeraldText)">EXPERTISE</tspan>
+    </text>
+    <text x="0" y="22" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing="1">
+      SPECIALIZED DOMAINS, INVESTIGATIVE CONCEPTS &amp; CREATIVE MOTION
+    </text>
+  </g>
+
+  <!-- 4 Quadrants -->
+  <g transform="translate(48, 85)">
+    <!-- Quadrant 1: Systems & Low-Level -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="375" height="115" rx="16" fill="url(#quadGrad)" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="26" cy="26" r="10" fill="#081F12" stroke="#00FF88" stroke-width="1"/>
+      <text x="26" y="30" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="900" fill="#00FF88">01</text>
+      <text x="46" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="800" fill="#00FF88">Systems &amp; Low-Level Forensics</text>
+      <text x="22" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" font-weight="400" fill="#CBD5E1">
+        <tspan x="22" dy="0">Win32 API, Windows NT kernel internals, latency</tspan>
+        <tspan x="22" dy="18">tuning, process memory diagnostics, remote thread injection</tspan>
+        <tspan x="22" dy="18">detection, and anti-cheat reverse engineering concepts.</tspan>
+      </text>
+    </g>
+
+    <!-- Quadrant 2: Digital Forensics & C2PA -->
+    <g transform="translate(405, 0)">
+      <rect x="0" y="0" width="375" height="115" rx="16" fill="url(#quadGrad)" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="26" cy="26" r="10" fill="#081F12" stroke="#00FF88" stroke-width="1"/>
+      <text x="26" y="30" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="900" fill="#00FF88">02</text>
+      <text x="46" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="800" fill="#00FF88">Digital Provenance &amp; Evidence</text>
+      <text x="22" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" font-weight="400" fill="#CBD5E1">
+        <tspan x="22" dy="0">C2PA cryptographic media provenance verification, tamper</tspan>
+        <tspan x="22" dy="18">detection, chronological legal daybooks, metadata extraction,</tspan>
+        <tspan x="22" dy="18">and forensic chain-of-custody tracking.</tspan>
+      </text>
+    </g>
+
+    <!-- Quadrant 3: Full-Stack & Architecture -->
+    <g transform="translate(0, 130)">
+      <rect x="0" y="0" width="375" height="115" rx="16" fill="url(#quadGrad)" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="26" cy="26" r="10" fill="#081F12" stroke="#00FF88" stroke-width="1"/>
+      <text x="26" y="30" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="900" fill="#00FF88">03</text>
+      <text x="46" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="800" fill="#00FF88">Full-Stack &amp; Agentic AI Systems</text>
+      <text x="22" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" font-weight="400" fill="#CBD5E1">
+        <tspan x="22" dy="0">React 19, Next.js 15/16, TypeScript, Node.js, Python, Java,</tspan>
+        <tspan x="22" dy="18">multi-tenant state machines, multi-agent swarms, and</tspan>
+        <tspan x="22" dy="18">resilient offline-first synchronization architectures.</tspan>
+      </text>
+    </g>
+
+    <!-- Quadrant 4: Motion Graphics & Media -->
+    <g transform="translate(405, 130)">
+      <rect x="0" y="0" width="375" height="115" rx="16" fill="url(#quadGrad)" stroke="#10B981" stroke-width="1" stroke-opacity="0.4"/>
+      <circle cx="26" cy="26" r="10" fill="#081F12" stroke="#00FF88" stroke-width="1"/>
+      <text x="26" y="30" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="900" fill="#00FF88">04</text>
+      <text x="46" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="800" fill="#00FF88">Motion Design &amp; Visual FX</text>
+      <text x="22" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" font-weight="400" fill="#CBD5E1">
+        <tspan x="22" dy="0">Adobe After Effects motion graphics, Video Copilot Element</tspan>
+        <tspan x="22" dy="18">3D compositing, Photoshop visual branding, keyframe physics,</tspan>
+        <tspan x="22" dy="18">and high-velocity interactive UI micro-interactions.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
