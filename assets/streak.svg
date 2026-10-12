@@ -1,82 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" width="680" height="220">
   <defs>
-    <!-- Dark Emerald Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050C08"/>
-      <stop offset="50%" stop-color="#09140D"/>
-      <stop offset="100%" stop-color="#060E09"/>
+      <stop offset="0%" stop-color="#050B07"/>
+      <stop offset="50%" stop-color="#08140D"/>
+      <stop offset="100%" stop-color="#040805"/>
     </linearGradient>
-
-    <!-- Electric Emerald Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#059669"/>
-      <stop offset="50%" stop-color="#00FF88"/>
-      <stop offset="100%" stop-color="#10B981"/>
-    </linearGradient>
-
-    <!-- Emerald Flame Gradient -->
-    <linearGradient id="fireGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#A7F3D0"/>
-      <stop offset="40%" stop-color="#00FF88"/>
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="50%" stop-color="#10B981"/>
       <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
-
-    <!-- Emerald Ring & Text Gradient -->
+    <linearGradient id="fireGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
     <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00FF88"/>
-      <stop offset="100%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
     </linearGradient>
-
-    <!-- Neon Glow Filter -->
-    <filter id="emeraldGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <filter id="emeraldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <!-- Subtle Drop Shadow -->
-    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#00FF88" flood-opacity="0.12"/>
     </filter>
   </defs>
 
   <!-- Card Background with Neon Emerald Border -->
-  <rect x="2" y="2" width="676" height="216" rx="18" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.8" filter="url(#cardShadow)"/>
-
-  <!-- Subtle Cyber Tech Grid Pattern Lines -->
-  <line x1="20" y1="2" x2="120" y2="2" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
-  <line x1="560" y1="2" x2="660" y2="2" stroke="#00FF88" stroke-width="2" stroke-linecap="round"/>
+  <rect x="2" y="2" width="676" height="216" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
 
   <!-- Left Column: Total Contributions -->
   <g transform="translate(115, 110)">
     <text x="0" y="-12" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="34" font-weight="800" fill="#F0FDF4">
       1,480+
     </text>
-    <text x="0" y="16" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="600" fill="#6EE7B7" letter-spacing="0.5">
+    <text x="0" y="16" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="600" fill="#A7F3D0" letter-spacing="0.5">
       Total Contributions
     </text>
-    <text x="0" y="36" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" fill="#059669">
+    <text x="0" y="36" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" fill="#4ade80" fill-opacity="0.7">
       Oct 13, 2024 – Present
     </text>
   </g>
 
   <!-- Divider 1 -->
-  <line x1="230" y1="45" x2="230" y2="175" stroke="#132E1D" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="230" y1="45" x2="230" y2="175" stroke="#064E3B" stroke-width="1.5" stroke-dasharray="4,4" stroke-opacity="0.6"/>
 
-  <!-- Center Column: Current Streak (88 Days) with Glowing Emerald Ring -->
+  <!-- Center Column: Current Streak (88 Days) -->
   <g transform="translate(340, 105)">
-    <!-- Base Ring -->
-    <circle cx="0" cy="-6" r="42" fill="none" stroke="#132E1D" stroke-width="4.5"/>
-    <!-- Glowing Progress Ring -->
-    <circle cx="0" cy="-6" r="42" fill="none" stroke="url(#emeraldGrad)" stroke-width="4.5" stroke-dasharray="264" stroke-dashoffset="35" stroke-linecap="round" filter="url(#emeraldGlow)"/>
-    <circle cx="0" cy="-6" r="42" fill="none" stroke="url(#emeraldGrad)" stroke-width="4.5" stroke-dasharray="264" stroke-dashoffset="35" stroke-linecap="round"/>
+    <!-- Dial Ring Background -->
+    <circle cx="0" cy="-6" r="42" fill="none" stroke="#064E3B" stroke-width="4" stroke-opacity="0.5"/>
+    <!-- Glowing Dial Ring Active -->
+    <circle cx="0" cy="-6" r="42" fill="none" stroke="url(#emeraldGrad)" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="35" filter="url(#emeraldGlow)"/>
+    <circle cx="0" cy="-6" r="42" fill="none" stroke="url(#emeraldGrad)" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="35"/>
     
-    <!-- Crown Emerald Flame atop the Ring -->
-    <g transform="translate(0, -56) scale(0.95)">
-      <path d="M0 -15 C3.5 -9, 9 -7, 9 0 C9 6, 4.5 9, 0 9 C-4.5 9, -9 6, -9 0 C-9 -7, -3.5 -9, 0 -15 Z" fill="url(#fireGrad)" filter="url(#emeraldGlow)"/>
-      <path d="M0 -9 C1.8 -5, 4.5 -3.5, 4.5 0 C4.5 3, 2.2 4.5, 0 4.5 C-2.2 4.5, -4.5 3, -4.5 0 C-4.5 -3.5, -1.8 -5, 0 -9 Z" fill="#F0FDF4"/>
+    <!-- Crown Flame atop the Ring -->
+    <g transform="translate(0, -56) scale(0.9)">
+      <path d="M0 -14 C3 -8, 8 -6, 8 0 C8 5, 4 8, 0 8 C-4 8, -8 5, -8 0 C-8 -6, -3 -8, 0 -14 Z" fill="url(#fireGrad)" filter="url(#emeraldGlow)"/>
+      <path d="M0 -8 C1.5 -4, 4 -3, 4 0 C4 2.5, 2 4, 0 4 C-2 4, -4 2.5, -4 0 C-4 -3, -1.5 -4, 0 -8 Z" fill="#BBF7D0"/>
     </g>
 
-    <!-- 88 Streak Number inside ring -->
+    <!-- 88 Streak Number (Dead-center inside ring) -->
     <text x="0" y="7" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="36" font-weight="900" fill="#00FF88">
       88
     </text>
@@ -91,22 +74,21 @@
   </g>
 
   <!-- Divider 2 -->
-  <line x1="450" y1="45" x2="450" y2="175" stroke="#132E1D" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="450" y1="45" x2="450" y2="175" stroke="#064E3B" stroke-width="1.5" stroke-dasharray="4,4" stroke-opacity="0.6"/>
 
   <!-- Right Column: Longest Streak -->
   <g transform="translate(565, 110)">
     <text x="0" y="-12" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="34" font-weight="800" fill="#F0FDF4">
       88
     </text>
-    <text x="0" y="16" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="600" fill="#6EE7B7" letter-spacing="0.5">
+    <text x="0" y="16" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="600" fill="#A7F3D0" letter-spacing="0.5">
       Longest Streak
     </text>
-    <text x="0" y="36" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" fill="#059669">
+    <text x="0" y="36" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" fill="#4ade80" fill-opacity="0.7">
       Consistent Active Daily
     </text>
   </g>
 
-  <!-- Bottom Glowing Neon Strip -->
-  <rect x="230" y="206" width="220" height="3" rx="1.5" fill="url(#emeraldGrad)" filter="url(#emeraldGlow)"/>
-  <rect x="230" y="206" width="220" height="3" rx="1.5" fill="#00FF88"/>
+  <!-- Bottom Accent Strip -->
+  <rect x="250" y="206" width="180" height="3" rx="1.5" fill="url(#emeraldGrad)" filter="url(#emeraldGlow)"/>
 </svg>

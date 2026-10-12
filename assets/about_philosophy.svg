@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 390" width="880" height="390">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050A07"/>
+      <stop offset="50%" stop-color="#09160E"/>
+      <stop offset="100%" stop-color="#050A07"/>
+    </linearGradient>
+    <linearGradient id="boxBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07120A"/>
+      <stop offset="100%" stop-color="#0D2014"/>
+    </linearGradient>
+    <linearGradient id="emeraldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="glowLight" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="876" height="386" rx="24" fill="url(#cardBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.35"/>
+
+  <!-- Section Header -->
+  <g transform="translate(48, 38)">
+    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="700" fill="#00FF88" letter-spacing="2">GET TO KNOW ME</text>
+    <text x="0" y="32" font-family="'Segoe UI', system-ui, sans-serif" font-size="28" font-weight="900" fill="#F8FAFC">
+      About <tspan fill="url(#emeraldText)">Me</tspan>
+    </text>
+  </g>
+
+  <!-- Left: Bio & Metrics Grid -->
+  <g transform="translate(48, 115)">
+    <!-- Bio text -->
+    <text x="0" y="0" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="400" fill="#94A3B8" line-height="1.5">
+      <tspan x="0" dy="0">High-velocity systems engineer &amp; 12th grade builder passionate about turning</tspan>
+      <tspan x="0" dy="20">complex ideas into hardened, beautiful, and autonomous digital realities.</tspan>
+    </text>
+
+    <!-- 4 Metrics Blocks -->
+    <g transform="translate(0, 50)">
+      <!-- Metric 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="170" height="76" rx="14" fill="url(#boxBg)" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+        <text x="20" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="900" fill="#00FF88">10+</text>
+        <text x="20" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">Enterprise Modules</text>
+      </g>
+
+      <!-- Metric 2 -->
+      <g transform="translate(186, 0)">
+        <rect x="0" y="0" width="170" height="76" rx="14" fill="url(#boxBg)" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+        <text x="20" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="900" fill="#00FF88">50+</text>
+        <text x="20" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">Production Builds</text>
+      </g>
+
+      <!-- Metric 3 -->
+      <g transform="translate(0, 90)">
+        <rect x="0" y="0" width="170" height="76" rx="14" fill="url(#boxBg)" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+        <text x="20" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="900" fill="#00FF88">100k+</text>
+        <text x="20" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">Lines of Robust Code</text>
+      </g>
+
+      <!-- Metric 4 -->
+      <g transform="translate(186, 90)">
+        <rect x="0" y="0" width="170" height="76" rx="14" fill="url(#boxBg)" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+        <text x="20" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="900" fill="#00FF88">24/7</text>
+        <text x="20" y="58" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="600" fill="#94A3B8">High Availability Focus</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Center Decorative Cyber Fan/Motif -->
+  <g transform="translate(440, 200)" opacity="0.6">
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#00FF88" stroke-width="1" stroke-opacity="0.3" filter="url(#glowLight)"/>
+    <polygon points="0,-40 38,0 0,40 -38,0" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="12" fill="#00FF88" opacity="0.4"/>
+  </g>
+
+  <!-- Right: Philosophy & Mission Cards -->
+  <g transform="translate(485, 95)">
+    <!-- Card 1: My Philosophy -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="345" height="115" rx="16" fill="url(#boxBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text x="22" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="800" fill="#00FF88">💡 My Philosophy</text>
+      <text x="22" y="54" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="400" fill="#CBD5E1">
+        <tspan x="22" dy="0">Blending modern reactive frontend ergonomics with</tspan>
+        <tspan x="22" dy="18">low-level operating system reliability to engineer</tspan>
+        <tspan x="22" dy="18">zero-compromise, scalable architectures.</tspan>
+      </text>
+    </g>
+
+    <!-- Card 2: The Mission -->
+    <g transform="translate(0, 130)">
+      <rect x="0" y="0" width="345" height="115" rx="16" fill="url(#boxBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.4"/>
+      <text x="22" y="30" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="800" fill="#00FF88">🎯 The Mission</text>
+      <text x="22" y="54" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="400" fill="#CBD5E1">
+        <tspan x="22" dy="0">Eliminating operational friction by deploying autonomous</tspan>
+        <tspan x="22" dy="18">agent swarms, self-correcting pipelines, and hardened</tspan>
+        <tspan x="22" dy="18">enterprise software for real-world impact.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

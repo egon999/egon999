@@ -2,31 +2,31 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050C08"/>
-      <stop offset="50%" stop-color="#09150E"/>
-      <stop offset="100%" stop-color="#040805"/>
+      <stop offset="0%" stop-color="#050C07"/>
+      <stop offset="50%" stop-color="#08160E"/>
+      <stop offset="100%" stop-color="#030805"/>
     </linearGradient>
 
-    <!-- Electric Emerald Gradient -->
+    <!-- Emerald Accent Gradient -->
     <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#059669"/>
-      <stop offset="50%" stop-color="#00FF88"/>
-      <stop offset="100%" stop-color="#10B981"/>
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
 
     <!-- Wave Gradient -->
     <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.20"/>
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.18"/>
       <stop offset="50%" stop-color="#10B981" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#059669" stop-opacity="0.0"/>
     </linearGradient>
 
-    <!-- Subtle Tech Grid Pattern -->
+    <!-- Subtle Grid Pattern -->
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#132E1D" stroke-width="0.75" stroke-opacity="0.5"/>
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#064E3B" stroke-width="0.75" stroke-opacity="0.35"/>
     </pattern>
 
-    <!-- Emerald Glow Filter -->
+    <!-- Glow Filter -->
     <filter id="emeraldGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
@@ -37,43 +37,47 @@
   <rect width="850" height="210" rx="16" fill="url(#bgGrad)"/>
   <rect width="850" height="210" rx="16" fill="url(#grid)"/>
 
-  <!-- Cybernetic Wave Elements in Neon Emerald -->
+  <!-- Cybernetic Wave Elements -->
   <path d="M0 160 Q 210 110, 425 155 T 850 135 L 850 210 L 0 210 Z" fill="url(#waveGrad)"/>
-  <path d="M0 175 Q 230 130, 440 170 T 850 150" fill="none" stroke="url(#emeraldGrad)" stroke-width="2.2" opacity="0.7"/>
+  <path d="M0 175 Q 230 130, 440 170 T 850 150" fill="none" stroke="url(#emeraldGrad)" stroke-width="2" opacity="0.7" filter="url(#emeraldGlow)"/>
   <path d="M0 185 Q 200 150, 420 180 T 850 165" fill="none" stroke="#00FF88" stroke-width="1.2" opacity="0.4"/>
 
   <!-- Top Accent Bar -->
-  <rect x="0" y="0" width="850" height="3" fill="url(#emeraldGrad)" filter="url(#emeraldGlow)"/>
-  <rect width="850" height="210" rx="16" fill="none" stroke="#00FF88" stroke-width="1.2" stroke-opacity="0.3"/>
+  <rect x="0" y="0" width="850" height="3" fill="url(#emeraldGrad)"/>
+  <rect width="850" height="210" rx="16" fill="none" stroke="#064E3B" stroke-width="1.5"/>
 
   <!-- Glowing Corner Accents -->
-  <circle cx="28" cy="28" r="3.5" fill="#00FF88" filter="url(#emeraldGlow)"/>
-  <circle cx="28" cy="28" r="3.5" fill="#00FF88"/>
-  <circle cx="822" cy="28" r="3.5" fill="#00FF88" filter="url(#emeraldGlow)"/>
-  <circle cx="822" cy="28" r="3.5" fill="#00FF88"/>
+  <circle cx="28" cy="28" r="3" fill="#00FF88" opacity="0.8" filter="url(#emeraldGlow)"/>
+  <circle cx="822" cy="28" r="3" fill="#00FF88" opacity="0.8" filter="url(#emeraldGlow)"/>
 
   <!-- Main Title: Ayushman (EGON) -->
   <text x="425" y="86" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="44" font-weight="900" fill="#F0FDF4" letter-spacing="1.5">
-    AYUSHMAN <tspan fill="#00FF88">(EGON)</tspan>
+    AYUSHMAN <tspan fill="#00FF88" filter="url(#emeraldGlow)">(EGON)</tspan>
   </text>
 
   <!-- Subtitle -->
   <text x="425" y="124" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="16" font-weight="600" fill="#A7F3D0" letter-spacing="0.8">
-    Systems &amp; Full-Stack Developer &#8226; 12th Grade Student &#8226; Founder @ Bratz Inc
+    Founder @ Elevate ERP &amp; Omniflux &#8226; Systems &amp; Full-Stack Architect &#8226; Class 12th
   </text>
 
-  <!-- Tech Pills / Focus Areas -->
-  <g transform="translate(425, 155)">
-    <rect x="-240" y="0" width="110" height="24" rx="12" fill="#0E2316" stroke="#00FF88" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="-185" y="16" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FF88">FULL-STACK</text>
+  <!-- Status / Pill Badges inside Banner -->
+  <g transform="translate(425, 162)">
+    <!-- Pill 1: Autonomous Systems -->
+    <rect x="-240" y="-14" width="150" height="26" rx="13" fill="#081D12" stroke="#00FF88" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="-165" y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FF88">
+      AUTONOMOUS AGENTS
+    </text>
 
-    <rect x="-115" y="0" width="110" height="24" rx="12" fill="#0E2316" stroke="#00FF88" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="-60" y="16" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FF88">AI SWARMS</text>
+    <!-- Pill 2: Full-Stack Architect -->
+    <rect x="-75" y="-14" width="150" height="26" rx="13" fill="#081D12" stroke="#10B981" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="0" y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#10B981">
+      FULL-STACK CORE
+    </text>
 
-    <rect x="10" y="0" width="110" height="24" rx="12" fill="#0E2316" stroke="#00FF88" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="65" y="16" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FF88">WIN32 / NT</text>
-
-    <rect x="135" y="0" width="110" height="24" rx="12" fill="#0E2316" stroke="#00FF88" stroke-width="0.8" stroke-opacity="0.5"/>
-    <text x="190" y="16" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#00FF88">CREATIVE</text>
+    <!-- Pill 3: Win32 & NT Forensics -->
+    <rect x="90" y="-14" width="150" height="26" rx="13" fill="#081D12" stroke="#059669" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="165" y="4" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#34D399">
+      SYSTEMS &amp; WIN32
+    </text>
   </g>
 </svg>
